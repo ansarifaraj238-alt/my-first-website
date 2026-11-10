@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Name Sarfraj</title>
+</head>
+<style>
+    body {
+        background-color: lightblue;
+        font-family: Arial;
+        text-align: center;
+    }
+
+    h1 {
+        color: darkblue;
+        font-size: 50px;
+    }
+
+    p {
+        color: black;
+        font-size: 30px;
+    }
+button {
+    background-color: blue;
+    color: white;
+    padding: 30px 60px;
+    border: none;
+    border-radius: 20px;
+    font-size: 26px;
+    cursor: pointer;}
+    input {
+    padding: 12px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: darkblue;}
+    @media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    input {
+        width: 85%;
+        box-sizing: border-box;
+    }
+
+    button {
+        max-width: 100%;
+    }
+    }
+</style>
+<h2>Contact Us</h2>
+<form>
+    <input type="text" placeholder="Enter Your Name">
+    <br><br>
+
+    <input type="email" placeholder="Enter Your Email">
+    <br><br>
+
+    <button type="submit">Submit</button>
+</form>
+<body>
+    <h1>Welcome to My Website</h1>
+
+    <p>My name is a Sarfraj.</p>
+
+    <h2>My Services</h2>
+
+    <p>Website Development</p>
+    <p>App Development</p>
+<button onclick="showMessage()">Contact Me</button>
+
+<script>
+function showMessage() {
+    alert("Thank you for contacting me!");
+}
+</script>
